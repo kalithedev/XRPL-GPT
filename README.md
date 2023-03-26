@@ -1,4 +1,4 @@
-# TolyGPT
+# XRPL GPT
 
 [TolyGPT.com](https://tolygpt.com) is a chatbot powered by GPT-4 and trained on the [Solana validator](https://github.com/solana-labs/solana) codebase. You can use TolyGPT to ask questions about how the Solana validator works and receive highly specific answers with references back to code files.
 

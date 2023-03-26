@@ -21,11 +21,12 @@ export default function Home() {
   const [messageState, setMessageState] = useState<{ messages: Message[], pending?: string, history: [string, string][] }>({
     messages: [{
       "message": 
-      `Hi there! I'm TolyGPT — a chatbot powered by ChatGPT. I can read an entire codebase and generate documentation. 
-      I'm currently trained on the Solana [validator codebase](https://github.com/solana-labs/solana). 
-      Ask me anything about how the validator works and I'll try my best try to answer. 
-      \nThe core of TolyGPT is now open source as [Autodoc](https://github.com/context-labs/autodoc). Join our [Discord](https://discord.com/invite/zQJerGaX) to learn more.
-      \n**Current model:** GPT-3.5.`,
+      `Hi there! I'm XRP Ledger GPT — a chatbot powered by ChatGPT. I can read an entire codebase and generate documentation. 
+      I'm currently trained on the XRPL [javascript SDK codebase](https://github.com/XRPLF/xrpl.js). 
+      Ask me anything about how XRPL or specific questions about the JS sdk and I'll try my best try to answer. 
+      \n**Current model:** GPT 3.5
+      `
+      ,
       "type": "apiMessage"
     }],
     history: []
@@ -123,23 +124,23 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TolyGPT | Solana Validator Chatbot</title>
+        <title>XRPL GPT | XRPL JS SDK Chatbot</title>
         <meta name="description" content="Solana Validator Chatbot" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <DefaultSeo
-        title="TolyGPT | Solana Validator Chatbot"
+        title="XRPL GPT | JS SDK Chatbot"
         openGraph={{
           type: 'website',
           locale: 'en_IE',
           url: 'tolygpt.com',
-          siteName: 'TolyGPT | Solana Validator Chatbot',
-          description: 'AI-powered documentation chatbot for the Solana validator',
+          siteName: 'XRPL GPT | XRPL JS Chatbot', 
+          description: 'AI-powered documentation chatbot for the XRPL JS SDK',
           images: [
             {
-              url: 'https://tolygpt.com/solana-og.png',
-              alt: 'Solana Logo',
+              url: '/XRP-Logo.png',
+              alt: 'XRP Logo',
               width: 800,
               height: 600,
             },
@@ -159,7 +160,7 @@ export default function Home() {
               let className;
 
               if (message.type === "apiMessage") {
-                icon = <Image src="/solana.jpeg" alt="AI" width="30" height="30" className={styles.boticon} priority style={{ borderRadius: '8px' }} />;
+                icon = <Image src="/XRP-Logo.png" alt="XRP" width="30" height="30" className={styles.boticon} priority style={{ borderRadius: '8px' }} />;
                 className = styles.apimessage;
               } else {
                 icon = <Image src="/usericon.png" alt="Me" width="30" height="30" className={styles.usericon} priority style={{ borderRadius: '8px' }} />
@@ -218,8 +219,7 @@ export default function Home() {
           <div className={styles.footer}>
             <div className="center">
               <br />
-              <p>Want this for your codebase?  <a href="https://tally.so/r/nr502L" target="_blank" rel="noreferrer"> Apply here</a></p>
-              <p>Follow <a href="https://twitter.com/0xSamHogan" target="_blank" rel="noreferrer">Sam Hogan</a> for updates.</p>
+              <p>Built using <a href="https://github.com/context-labs/autodoc" target="_blank" rel="noreferrer"> AutoDocs</a></p>
             </div>
           </div>
         </div>

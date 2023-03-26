@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <script defer data-domain="tolygpt.com" src="https://plausible.io/js/script.js"></script>
+        {/* <script defer data-domain="tolygpt.com" src="https://plausible.io/js/script.js"></script> */}
       </Head>
       <body>
         <Main />
