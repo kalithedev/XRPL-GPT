@@ -2,6 +2,9 @@
 
 XRPL GPT is a chatbot powered by GPT-4 and trained on the [XRP Ledger](https://github.com/XRPLF/xrpl.js) codebase. You can use XRPLGpt to ask questions about how the XRP Ledger works and receive highly specific answers with references back to code files.
 
+![XRPL-GPT UI](https://i.postimg.cc/MTRgpsBN/XRPL-gpt-ss.png) 
+
+
 ## Credit
 
 This project was originally forked from Sean Sullivans's [chatlangchain-js](https://github.com/sullivan-sean/chat-langchainjs) repository. The credit for the UI and core querying flow goes to him.
