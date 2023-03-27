@@ -1,8 +1,6 @@
 # XRPL GPT
 
-[TolyGPT.com](https://tolygpt.com) is a chatbot powered by GPT-4 and trained on the [Solana validator](https://github.com/solana-labs/solana) codebase. You can use TolyGPT to ask questions about how the Solana validator works and receive highly specific answers with references back to code files.
-
-This version of TolyGPT is available here mostly for research and record keeping purposes. If you're interested in something similar for your project, please see [Autodoc](https://github.com/context-labs/autodoc), which contains an updated version of the core TolyGPT functionality designed for use with your own repositories.
+XRPL GPT is a chatbot powered by GPT-4 and trained on the [XRP Ledger](https://github.com/XRPLF/xrpl.js) codebase. You can use XRPLGpt to ask questions about how the XRP Ledger works and receive highly specific answers with references back to code files.
 
 ## Credit
 
