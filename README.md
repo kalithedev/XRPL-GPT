@@ -5,26 +5,6 @@ XRPL GPT is a chatbot powered by GPT-4 and trained on the [XRP Ledger](https://g
 ![XRPL-GPT UI](https://i.postimg.cc/MTRgpsBN/XRPL-gpt-ss.png) 
 
 
-## Credit
-
-This project was originally forked from Sean Sullivans's [chatlangchain-js](https://github.com/sullivan-sean/chat-langchainjs) repository. The credit for the UI and core querying flow goes to him.
-
-Other contributors include:
-- [ChatLangChain](https://github.com/hwchase17/chat-langchain) - for the backend and data ingestion logic
-- [LangChain Chat NextJS](https://github.com/zahidkhawaja/langchain-chat-nextjs) - for the frontend.
-
-## Getting Started
-
-**NOTE:** This instructions below may not work. please see [Autodoc](https://github.com/context-labs/autodoc) for an updated version. If you must use this project, do so at your own risk.
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-First, create a new `.env` file from `.env.example` and add your OpenAI API key found [here](https://platform.openai.com/account/api-keys).
-
-```bash
-cp .env.example .env
-```
-
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/) (v16 or higher)
